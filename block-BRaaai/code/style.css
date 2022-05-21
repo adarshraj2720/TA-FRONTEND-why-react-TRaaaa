@@ -1,0 +1,42 @@
+.main{
+ position: relative;   
+}
+
+.category{
+    position: absolute;
+    top: 480px;
+    left: 0;
+    background-color: red;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+.date{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.subtitle{
+    color: red;
+}
+.description ,h5,h6{
+    color: gray;
+}
+.flex{
+    display: flex;
+}
+h5{
+    margin-right: 20px;
+}
