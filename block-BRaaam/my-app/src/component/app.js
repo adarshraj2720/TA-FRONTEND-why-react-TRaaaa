@@ -1,13 +1,15 @@
+import React from 'react'
+import  ReactDOM  from 'react-dom';
+
 function App() {
     return (
-      <div>
-      
-            <Aside />
-            <Main />
-            <Footer />
-    </div>
+  <>
+  <h1>Hello World</h1>
+  </>
   
     );
   }
 
+
+  ReactDOM.render(<App/>,document.getElementById('root'));
   export default App;
