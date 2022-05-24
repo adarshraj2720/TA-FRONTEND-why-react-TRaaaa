@@ -1,0 +1,15 @@
+.color{
+    display: flex;
+    margin: 20px ;
+    /* flex-wrap: wrap;*/
+     align-items: center; 
+}
+p{
+    padding-top: 250px;
+   
+}
+.number{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
